@@ -45,12 +45,12 @@ bindsym XF86AudioMicMute exec --no-startup-id pactl set-source-mute @DEFAULT_SOU
 floating_modifier $mod
 
 # start a terminal
-bindsym $mod+Return exec st
+bindsym $mod+Return exec xfce4-terminal
 # kill focused window
 bindsym $mod+q kill
 
 # start dmenu (a program launcher)
-bindsym $mod+d exec --no-startup-id rofi -show run
+bindsym $mod+d exec "rofi -show drun" 
 # A more modern dmenu replacement is rofi:
 # bindcode $mod+40 exec "rofi -modi drun,run -show drun"
 # There also is i3-dmenu-desktop which only displays applications shipping a
@@ -184,9 +184,5 @@ bar {
 	position top
 }
 
-gaps inner 10
-gaps outer 10
-
 for_window [class="^.*"] border pixel 0
-exec --no-startup-id picom
-exec --no-startup-id hsetroot -solid "#4c566a"
+exec --no-startup-id feh --bg-center Wallpaper.png
