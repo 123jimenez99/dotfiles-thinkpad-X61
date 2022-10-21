@@ -1,7 +1,6 @@
 # dotfiles-thinkpad
 This configuration won't be fully useful without these programs:
-  - maim 
-  - xclip
+  - scrot 
   - ytfzf
   - ani-cli
   - net-tools
@@ -11,7 +10,7 @@ This configuration won't be fully useful without these programs:
   - jq
   - mpv
   - rofi
-  - fonts-firacode
+  - comic-code 
 
 Installation of packages for DEB based distros: 
 sudo apt install maim xclip net-tools newsboat yt-dlp fzf jq mpv rofi fonts-firacode
