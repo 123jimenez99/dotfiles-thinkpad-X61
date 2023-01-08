@@ -1,20 +1,23 @@
 # dotfiles-thinkpad
-This configuration won't be fully useful without these programs:
-  - scrot 
+It's recommended to have all listed packages installed to make use of the dotfiles at their fullest.
+
+  - maim 
   - ytfzf
   - ani-cli
   - net-tools
   - newsboat
+  - redshift
   - yt-dlp
   - fzf
   - jq
+  - st
   - mpv
   - rofi
-  - comic-code 
-
-Installation of packages for DEB based distros: 
-sudo apt install maim xclip net-tools newsboat yt-dlp fzf jq mpv rofi fonts-firacode
+  - xorg-xsetroot
+  - ttf-comic-mono-git
 
 Instructions for installing ytfzf and ani-cli can be found at:
 - https://github.com/pystardust/ytfzf
 - https://github.com/pystardust/ani-cli#Linux
+
+Consider having an AUR package manager to install the packages listed. Some of them are only available in the AUR.
