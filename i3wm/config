@@ -146,7 +146,9 @@ bindsym $mod+Shift+c reload
 bindsym $mod+Shift+r restart
 
 # Nightmode
-bindsym F9 exec redshift -P -O 4000
+bindsym F9 exec redshift -P -O 3000
+bindsym F10 exec redshift -P -O 6000
+
 
 # exit i3 (logs you out of your X session)
 bindsym $mod+Shift+e exec "i3-nagbar -t warning -m 'You pressed the exit shortcut. Do you really want to exit i3? This will end your X session.' -B 'Yes, exit i3' 'i3-msg exit'"
